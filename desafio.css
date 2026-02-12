@@ -1,0 +1,126 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+article {
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.image {
+    display: inline-block;
+    margin-left: 121px;
+    margin-top: 246px;
+    width: 595.18px;
+    height: 500px;
+}
+
+header {
+    height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 21px 0 48px 62px;
+
+}
+
+.link-header {
+    color: #17233D;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    cursor: pointer;
+    margin-right: 30px;
+    width: 79px;
+    height: 21px;
+}
+
+.button-header {
+    border-radius: 5px;
+    background: #6FBF44;
+    border: #4cb538;
+    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
+    top: 32px;
+    left: 420px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    top: 342px;
+    left: 801px;
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161a49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    top: 553px;
+    left: 801px;
+    color: #4B505A;
+}
+
+.button-section {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 100%;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    article {
+    display: flex;
+    flex-direction: column; /* section em cima, imagem embaixo */
+    align-items: center;
+    gap: 24px;
+}
+
+section {
+    order: 1;
+}
+
+.image {
+    order: 2;
+    margin: 0; /* remove margens fixas grandes */
+    width: 312px;
+    height: 288px;
+    max-width: 595px;
+    height: auto;
+}
+
+        .link-header {
+            display: none;
+        }
+        .button-header {         
+        font-weight: 500;
+        font-size: 12px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 1px;
+        display: block;
+        position: static;
+        margin-left: auto;
+        }
+        h1 {
+         width: 278px;
+         height: 60px;       
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        
+        }
+    }
